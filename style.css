@@ -298,7 +298,7 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
   top:0; bottom:0;
   left:48%;
   width:4px;
-  background:linear-gradient(180deg,transparent,var(--blue),var(--gold),transparent);
+  background:linear-gradient(180deg,transparent,var(--blue),#3A82B8,transparent);
   opacity:.35;
 }
 
@@ -529,7 +529,7 @@ section { padding:90px 80px; }
   position:absolute;
   top:0; left:0; right:0;
   height:3px;
-  background:linear-gradient(90deg,var(--blue),var(--gold));
+  background:linear-gradient(90deg,var(--blue),#3A82B8);
   transform:scaleX(0);
   transform-origin:left;
   transition:transform .4s ease;
@@ -696,7 +696,7 @@ section { padding:90px 80px; }
   border-radius:12px 12px 0 0;
 }
 .about-highlight.blue::before { background:linear-gradient(90deg,var(--blue),transparent); }
-.about-highlight.gold::before { background:linear-gradient(90deg,var(--gold),transparent); }
+.about-highlight.gold::before { background:linear-gradient(90deg,var(--blue-dk),transparent); }
 .about-highlight:hover { transform:translateY(-5px); border-color:rgba(91,200,245,.2); }
 
 /* card grande ocupa linha inteira */
@@ -717,7 +717,7 @@ section { padding:90px 80px; }
   font-size:3rem;
   font-weight:900;
   line-height:1;
-  color:var(--gold);
+  color:#3A82B8;
   text-shadow:0 0 24px rgba(245,200,66,.25);
 }
 .about-highlight.blue .ah-num { color:var(--blue); text-shadow:0 0 24px rgba(91,200,245,.25); }
@@ -794,7 +794,7 @@ section { padding:90px 80px; }
   font-family:'Barlow Condensed',sans-serif;
   font-size:2.4rem;
   font-weight:900;
-  color:var(--gold);
+  color:#3A82B8;
   line-height:1;
   text-shadow:0 0 20px rgba(245,200,66,.25);
 }
