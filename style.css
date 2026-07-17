@@ -78,7 +78,7 @@ body {
 
 ::-webkit-scrollbar { width:5px; }
 ::-webkit-scrollbar-track { background:var(--dark-2); }
-::-webkit-scrollbar-thumb { background:var(--gold); border-radius:3px; }
+::-webkit-scrollbar-thumb { background:#3A82B8; border-radius:3px; }
 
 /* ──────────────────────────────────────────
    TOPBAR
@@ -173,17 +173,17 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
 .nav-links a:hover::after { width:100%; }
 
 .nav-cta {
-  background:linear-gradient(135deg,var(--gold),var(--gold-lt));
+  background:linear-gradient(135deg,#3A82B8,#3A82B8);
   color:var(--dark) !important;
   padding:9px 22px;
   border-radius:5px;
   font-weight:800 !important;
   transition:transform .2s, box-shadow .2s !important;
-  box-shadow:0 4px 16px rgba(245,200,66,0.3);
+  box-shadow:0 4px 16px #3A82B8;;
 }
 .nav-cta:hover {
   transform:translateY(-2px) !important;
-  box-shadow:0 8px 24px rgba(245,200,66,0.45) !important;
+  box-shadow:0 8px 24px #3A82B8 !important;
 }
 .nav-cta::after { display:none !important; }
 
