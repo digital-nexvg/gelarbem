@@ -352,7 +352,7 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
 .slide.active .slide-title { opacity:1; transform:translateY(0); }
 .slide-title em {
   font-style:normal;
-  color:var(--gold);
+  color:#3A82B8;
   text-shadow:0 0 40px rgba(245,200,66,.25);
 }
 
@@ -379,7 +379,7 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
 .slide.active .slide-btns { opacity:1; transform:translateY(0); }
 
 .btn-primary {
-  background:linear-gradient(135deg,var(--gold),var(--gold-lt));
+  background:linear-gradient(135deg,#3A82B8,#3A82B8);
   color:var(--dark);
   padding:14px 34px;
   border:none;
@@ -392,10 +392,10 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
   text-decoration:none;
   cursor:pointer;
   transition:transform .2s, box-shadow .25s;
-  box-shadow:0 4px 20px rgba(245,200,66,.35);
+  box-shadow:0 4px 20px #3A82B8;
   display:inline-block;
 }
-.btn-primary:hover { transform:translateY(-3px); box-shadow:0 10px 32px rgba(245,200,66,.5); }
+.btn-primary:hover { transform:translateY(-3px); box-shadow:0 10px 32px #3A82B8; }
 
 .btn-outline {
   background:transparent;
@@ -436,15 +436,15 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
   transition:all .35s;
   padding:0;
 }
-.dot.active { width:30px; background:var(--gold); box-shadow:0 0 10px rgba(245,200,66,.5); }
+.dot.active { width:30px; background:#3A82B8; box-shadow:0 0 10px #3A82B8; }
 
 .hero-arrows { display:flex; gap:10px; }
 .arrow-btn {
   width:46px; height:46px;
   border:1.5px solid rgba(255,255,255,.18);
   border-radius:50%;
-  background:rgba(9,13,24,.55);
-  color:var(--text);
+  background:transparent;
+  color:#3A82B8;
   font-size:1.1rem;
   cursor:pointer;
   display:flex;
@@ -453,7 +453,7 @@ nav.scrolled { box-shadow:0 4px 32px rgba(0,0,0,0.6); }
   transition:all .25s;
   backdrop-filter:blur(8px);
 }
-.arrow-btn:hover { border-color:var(--gold); color:var(--gold); background:rgba(245,200,66,.1); }
+.arrow-btn:hover { border-color:#3A82B8; color:#3A82B8; background:rgba(245,200,66,.1); }
 
 /* ──────────────────────────────────────────
    SECTION COMMONS
@@ -486,7 +486,7 @@ section { padding:90px 80px; }
   color:var(--white);
   margin-bottom:16px;
 }
-.section-title em { font-style:normal; color:var(--gold); }
+.section-title em { font-style:normal; color:#3A82B8; }
 
 .section-desc {
   font-size:1.05rem;
@@ -651,7 +651,7 @@ section { padding:90px 80px; }
   padding:4px 12px;
   border-radius:20px;
   background:rgba(245,200,66,.08);
-  color:var(--gold);
+  color:#3A82B8;
   border:1px solid rgba(245,200,66,.2);
   letter-spacing:0.06em;
   text-transform:uppercase;
